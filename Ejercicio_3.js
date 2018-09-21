@@ -4,12 +4,12 @@ function fibonacci(a) {
     var aux;
     var k ="";
    
-    for (let i= 0; i < a; i++) {
-        if (i===0) {
+    for (let i= 1; i < a; i++) {
+        if (i===1) {
             k=k+n;
             k=k+",";
         }
-        if (i===1) {
+        if (i===2) {
             k=k+n_1;
             k=k+",";
         }
@@ -22,7 +22,7 @@ function fibonacci(a) {
         }
         
     }
-    alert(k);
+    console.log(k);
 }
 
 

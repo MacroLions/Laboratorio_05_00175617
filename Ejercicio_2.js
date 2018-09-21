@@ -12,5 +12,4 @@ function ordenArray(array) {
     }
 
     console.log("Despues: "+array)
-    alert("Ordenado es: "+array)
 }

@@ -1,13 +1,9 @@
 function palindromo(palabra) {
-    console.log(palabra.length)
-    palindromo=palabra.split("");
-    palindromo.reverse();
-    palindromo.join('');
-    console.log(palindromo);
-    if(palabra==palindromo){
-        alert("Shi, "+palabra+" es palindromo")
+    var inverso=palabra.split("").reverse().join("");
+    if(palabra==inverso){
+        console.log(palabra+" es palindromo")
     }
     else{
-        alert("Ño, "+palabra+" no es palindromo");
+        console.log(palabra+" no es palindromo")
     }
 }
