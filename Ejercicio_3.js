@@ -1,4 +1,5 @@
 function fibonacci(a) {
+    a = prompt("Enésimo término:")
     var n=0;
     var n_1=1;
     var aux;
