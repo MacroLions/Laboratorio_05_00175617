@@ -20,9 +20,9 @@ function bisiesto() {
     }
 
     if(a==true && b==false || c==true){
-        console.log(true);
+        console.log(year+" es bisiesto");
     }
     else{
-        console.log(false);
+        console.log(year+" no es bisiesto");
     }
 }
